@@ -1,0 +1,27 @@
+{
+  "name": "csv-batch-transfers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.9",
+    "@solana/web3.js": "^1.95.3",
+    "@sqds/multisig": "^2.1.3",
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "yargs": "^17.7.1"
+  },
+  "scripts": {
+    "start": "ts-node main.ts"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.33",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Squads-Protocol/CSV-Batch-Transfers.git"
+  },
+  "private": false
+}
